@@ -5,6 +5,12 @@ Cypress Wiced Peripheral and Beacon scanner
 Creating a Bluetooth LE peripheral using Cypress Wiced SDK aims to:
 advertising for accepting incoming connection.
 
+## State machine
+
+<p align="center">
+  <img src="./images/wiced_peripheral_beacon.png">
+</p>
+
 ## Advertising
 
 Device is advertising during 30 seconds the complete Local name "beacon_scanner"
