@@ -15,7 +15,7 @@ Beacon scanner device is exposing following services and characteristics :
 
 |     Service    |    Device Information    |     0x180A     |
 |:--------------:|:------------------------:|:--------------:|
-| Characteristic | Manufacturer name String | Jonathan Gelie |
+| Characteristic <td rowspan=3>| Manufacturer name String | Jonathan Gelie |
 |                | Model Number String      | beacon scanner |
 |                | Software Revision String |      1.0.0     |
 
@@ -44,6 +44,10 @@ For each single advertising report is checking if advertising packet is related 
 
 
 Then it will possible to localize your tracker by matching RSSI and calibrated TxPower within Beacons database
+
+## Beacon scan timeout
+
+As soon as beacon scan expired, we starting advertising again.
 
 ## Author
 Jonathan Gelie <[contact@jonathangelie.com](mailto:contact@jonathangelie.com)>
