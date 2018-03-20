@@ -15,7 +15,7 @@ Beacon scanner device is exposing following services and characteristics :
 
 |     Service    |    Device Information    |     0x180A     |
 |:--------------:|:------------------------:|:--------------:|
-| Characteristic <td rowspan=3>| Manufacturer name String | Jonathan Gelie |
+| Characteristic | Manufacturer name String | Jonathan Gelie |
 |                | Model Number String      | beacon scanner |
 |                | Software Revision String |      1.0.0     |
 
